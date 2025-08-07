@@ -1,5 +1,5 @@
 # proof-of-concept-c-quine
-A proof of concept self-replicating quine written in C. It replicates itself within the output directory and runs the new file. This version is limited to 5 iterations after which it stops running. The code is for educational purposes only and performs no malicious operations.
+A proof of concept self-replicating quine written in C. It replicates itself within the same directory with a new name and runs the new file. This version is limited to 5 copies after which it stops running; the current file naming conventions do not support more than 9 iterations. The code is for educational purposes only and performs no malicious operations.
 
 ### Collaborators:
 - Emily Zapata
@@ -10,5 +10,5 @@ A proof of concept self-replicating quine written in C. It replicates itself wit
 - C compiler
 
 ### Running Instructions:
-1) Compile the code.
-2) Run it.
+1) Compile quine.c
+2) Run with: ./a.out
